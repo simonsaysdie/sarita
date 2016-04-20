@@ -2,6 +2,8 @@ defmodule Sarita.PaintingController do
   use Sarita.Web, :controller
 
   alias Sarita.Painting
+  alias Sarita.Repo
+  alias Sarita.Category
 
   plug :scrub_params, "painting" when action in [:create, :update]
 
@@ -11,8 +13,9 @@ defmodule Sarita.PaintingController do
   end
 
   def new(conn, _params) do
+    categories = Repo.all(Category)
     changeset = Painting.changeset(%Painting{})
-    render(conn, "new.html", changeset: changeset)
+    render(conn, "new.html", changeset: changeset, categories: categories)
   end
 
   def create(conn, %{"painting" => painting_params}) do
