@@ -19,6 +19,8 @@ defmodule Sarita.Router do
     get "/", PageController, :index
 
     resources "/paintings", PaintingController
+    resources "/categories", CategoryController
+
   end
 
   # Other scopes may use custom stacks.
