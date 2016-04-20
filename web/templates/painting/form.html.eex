@@ -1,0 +1,77 @@
+<%= form_for @changeset, @action, fn f -> %>
+  <%= if @changeset.action do %>
+    <div class="alert alert-danger">
+      <p>Oops, something went wrong! Please check the errors below.</p>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= label f, :title, class: "control-label" %>
+    <%= text_input f, :title, class: "form-control" %>
+    <%= error_tag f, :title %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :sold, class: "control-label" %>
+    <%= checkbox f, :sold, class: "form-control" %>
+    <%= error_tag f, :sold %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :price, class: "control-label" %>
+    <%= number_input f, :price, class: "form-control" %>
+    <%= error_tag f, :price %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :date, class: "control-label" %>
+    <%= text_input f, :date, class: "form-control" %>
+    <%= error_tag f, :date %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :photo1, class: "control-label" %>
+    <%= text_input f, :photo1, class: "form-control" %>
+    <%= error_tag f, :photo1 %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :photo2, class: "control-label" %>
+    <%= text_input f, :photo2, class: "form-control" %>
+    <%= error_tag f, :photo2 %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :photo3, class: "control-label" %>
+    <%= text_input f, :photo3, class: "form-control" %>
+    <%= error_tag f, :photo3 %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :photo4, class: "control-label" %>
+    <%= text_input f, :photo4, class: "form-control" %>
+    <%= error_tag f, :photo4 %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :width, class: "control-label" %>
+    <%= number_input f, :width, class: "form-control" %>
+    <%= error_tag f, :width %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :height, class: "control-label" %>
+    <%= number_input f, :height, class: "form-control" %>
+    <%= error_tag f, :height %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :materials, class: "control-label" %>
+    <%= text_input f, :materials, class: "form-control" %>
+    <%= error_tag f, :materials %>
+  </div>
+
+  <div class="form-group">
+    <%= submit "Submit", class: "btn btn-primary" %>
+  </div>
+<% end %>

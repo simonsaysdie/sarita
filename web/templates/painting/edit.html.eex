@@ -1,0 +1,6 @@
+<h2>Edit painting</h2>
+
+<%= render "form.html", changeset: @changeset,
+                        action: painting_path(@conn, :update, @painting) %>
+
+<%= link "Back", to: painting_path(@conn, :index) %>

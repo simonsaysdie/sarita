@@ -1,0 +1,63 @@
+<h2>Show painting</h2>
+
+<ul>
+
+  <li>
+    <strong>Title:</strong>
+    <%= @painting.title %>
+  </li>
+
+  <li>
+    <strong>Sold:</strong>
+    <%= @painting.sold %>
+  </li>
+
+  <li>
+    <strong>Price:</strong>
+    <%= @painting.price %>
+  </li>
+
+  <li>
+    <strong>Date:</strong>
+    <%= @painting.date %>
+  </li>
+
+  <li>
+    <strong>Photo1:</strong>
+    <%= @painting.photo1 %>
+  </li>
+
+  <li>
+    <strong>Photo2:</strong>
+    <%= @painting.photo2 %>
+  </li>
+
+  <li>
+    <strong>Photo3:</strong>
+    <%= @painting.photo3 %>
+  </li>
+
+  <li>
+    <strong>Photo4:</strong>
+    <%= @painting.photo4 %>
+  </li>
+
+  <li>
+    <strong>Width:</strong>
+    <%= @painting.width %>
+  </li>
+
+  <li>
+    <strong>Height:</strong>
+    <%= @painting.height %>
+  </li>
+
+  <li>
+    <strong>Materials:</strong>
+    <%= @painting.materials %>
+  </li>
+
+</ul>
+
+<%= link "Edit", to: painting_path(@conn, :edit, @painting) %>
+<%= link "Back", to: painting_path(@conn, :index) %>

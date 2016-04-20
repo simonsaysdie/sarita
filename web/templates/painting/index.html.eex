@@ -1,0 +1,46 @@
+<h2>Listing paintings</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Sold</th>
+      <th>Price</th>
+      <th>Date</th>
+      <th>Photo1</th>
+      <th>Photo2</th>
+      <th>Photo3</th>
+      <th>Photo4</th>
+      <th>Width</th>
+      <th>Height</th>
+      <th>Materials</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for painting <- @paintings do %>
+    <tr>
+      <td><%= painting.title %></td>
+      <td><%= painting.sold %></td>
+      <td><%= painting.price %></td>
+      <td><%= painting.date %></td>
+      <td><%= painting.photo1 %></td>
+      <td><%= painting.photo2 %></td>
+      <td><%= painting.photo3 %></td>
+      <td><%= painting.photo4 %></td>
+      <td><%= painting.width %></td>
+      <td><%= painting.height %></td>
+      <td><%= painting.materials %></td>
+
+      <td class="text-right">
+        <%= link "Show", to: painting_path(@conn, :show, painting), class: "btn btn-default btn-xs" %>
+        <%= link "Edit", to: painting_path(@conn, :edit, painting), class: "btn btn-default btn-xs" %>
+        <%= link "Delete", to: painting_path(@conn, :delete, painting), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<%= link "New painting", to: painting_path(@conn, :new) %>
