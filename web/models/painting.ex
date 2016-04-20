@@ -2,6 +2,7 @@ defmodule Sarita.Painting do
   use Sarita.Web, :model
 
   schema "paintings" do
+    belongs_to :category, Sarita.Category
     field :title, :string
     field :sold, :boolean, default: false
     field :price, :integer

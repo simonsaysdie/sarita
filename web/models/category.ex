@@ -2,6 +2,7 @@ defmodule Sarita.Category do
   use Sarita.Web, :model
 
   schema "categories" do
+    has_many :paintings, Sarita.Painting
     field :name, :string
 
     timestamps
