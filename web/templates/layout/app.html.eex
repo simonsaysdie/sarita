@@ -9,6 +9,9 @@
 
     <title>Hello Sarita!</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+
   </head>
 
   <body>
@@ -29,7 +32,9 @@
         <%= render @view_module, @view_template, assigns %>
       </main>
 
-    </div> <!-- /container -->
+    </div> 
+    <script scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
