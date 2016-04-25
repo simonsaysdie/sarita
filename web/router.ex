@@ -17,6 +17,7 @@ defmodule Sarita.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/bio", PageController, :bio
 
     resources "/paintings", PaintingController
     resources "/categories", CategoryController

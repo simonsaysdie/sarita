@@ -4,4 +4,8 @@ defmodule Sarita.PageController do
   def index(conn, _params) do
     render conn, "index.html"
   end
+
+  def bio(conn, _params) do
+    render conn, "bio.html"
+  end
 end
