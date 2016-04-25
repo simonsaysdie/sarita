@@ -1,8 +1,22 @@
 <body>
       <div class="container">
       <div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}", name: "Arte SARA diez!" %></h2>
-  <p class="lead">Sara Diez : nace en Medellín - Colombia en 1991 , desde pequeña se destacó por sus dibujos y creatividad de manera empírica , representó su escuela secundaria en concursos departamentales de los mejores dibujantes. Dejó el dibujo por cursar la Licenciatura en Derecho de la que se graduó. Se trasladó a vivir a Ciudad de México donde se le imposibilitó ejercer en su carrera, por lo que decidió volver de nuevo al papel, allí ingreso al taller de arte donde aprende a trabajar con diferentes técnicas como el oleo, acrílico y esculturas orgánicas. Actualmente pinta al oleo por considerarla la técnica más noble y al carboncillo.   Se caracteriza por su versatilidad, pero su mayor gusto es el hiperrealismo. Actualmente la siguen mas de 19,000 personas en  instagram.</p>
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="col s6">
+              <img src="images/sara.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+            </div>
+            <div class="col s10">
+              <span class="black-text pato">
+                Sara Diez
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+  <h2><%= gettext "Welcome to %{name}", name: "Arte SARA Díez!" %></h2>
+  <p class="lead">Sara Diez : nace en Medellín - Colombia en 1991 , desde pequeña se destacó por sus dibujos y creatividad de manera empírica , representó su escuela secundaria en concursos departamentales de los mejores dibujantes. Dejó el dibujo por cursar la Licenciatura en Derecho de la que se graduó. Se trasladó a vivir a Ciudad de México donde se le imposibilitó ejercer su carrera, por lo que decidió volver de nuevo al papel, allí ingreso al taller de arte donde aprende a trabajar con diferentes técnicas como el oleo, acrílico y esculturas orgánicas. Actualmente pinta al oleo por considerarla la técnica más noble y al carboncillo.   Se caracteriza por su versatilidad, pero su mayor gusto es el hiperrealismo. Actualmente la siguen mas de 19,000 personas en  instagram.</p>
 </div>
       </div>
     </body>

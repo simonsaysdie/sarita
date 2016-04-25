@@ -12,13 +12,15 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
   </head>
   
-  <body background="/images/marble.jpg">
+  <body background="/images/color.jpg">
    
    <nav>
     <div class="nav-wrapper">
-        <nav class="#212121 grey darken-4"
+        <nav class="#212121 grey darken-4">
 
-      <a href="#" class="brand-logo">Logo</a>
+      <a href="/" >
+        <img class="brand-logo" src="/images/dog2.png">
+      </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="sass.html">Sass</a></li>
         <li><a href="badges.html">Components</a></li>
