@@ -22,11 +22,13 @@
         <img class="brand-logo" src="/images/dog2.png">
       </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="bio.html">Biografía</a></li>
-        <li><a href="badges.html">Oil Paintings</a></li>
-        <li><a href="collapsible.html">Finger Paintings</a></li>
-        <li><a href="badges.html">Acrílico</a></li>
-        <li><a href="collapsible.html">Sketches</a></li>
+        <li><a href="bio">Biography</a></li>
+        <li><a href="acrylic">Acrylic</a></li>        
+        <li><a href="finger_paintings">Finger Paintings</a></li>
+        <li><a href="oil_paintings">Oil Paintings</a></li>  
+        <li><a href="sketches">Sketches</a></li>
+        <li><a href="https://www.instagram.com/Sara10_art/">Oficial Instagram</a></li>
+
 
       </ul>
     </div>
