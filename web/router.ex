@@ -18,6 +18,7 @@ defmodule Sarita.Router do
 
     get "/", PageController, :index
     get "/bio", PageController, :bio
+    get "/oil_paintings", PageController, :oil_paintings
 
     resources "/paintings", PaintingController
     resources "/categories", CategoryController

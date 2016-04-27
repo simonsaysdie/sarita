@@ -8,4 +8,8 @@ defmodule Sarita.PageController do
   def bio(conn, _params) do
     render conn, "bio.html"
   end
+
+  def oil_paintings(conn, _params) do
+    render conn, "oil_paintings.html"
+  end
 end

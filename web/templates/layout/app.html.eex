@@ -22,9 +22,12 @@
         <img class="brand-logo" src="/images/dog2.png">
       </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+        <li><a href="bio.html">Biografía</a></li>
+        <li><a href="badges.html">Oil Paintings</a></li>
+        <li><a href="collapsible.html">Finger Paintings</a></li>
+        <li><a href="badges.html">Acrílico</a></li>
+        <li><a href="collapsible.html">Sketches</a></li>
+
       </ul>
     </div>
   </nav>
