@@ -21,7 +21,6 @@ defmodule Sarita.Router do
 
     resources "/paintings", PaintingController
     resources "/categories", CategoryController
-
   end
 
   # Other scopes may use custom stacks.

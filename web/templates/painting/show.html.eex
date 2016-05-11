@@ -24,22 +24,22 @@
 
   <li>
     <strong>Photo1:</strong>
-    <%= @painting.photo1 %>
+    <img src="<%= img_url(@painting.photo1) %>">
   </li>
 
   <li>
     <strong>Photo2:</strong>
-    <%= @painting.photo2 %>
+    <img src="<%= img_url(@painting.photo2) %>">
   </li>
 
   <li>
     <strong>Photo3:</strong>
-    <%= @painting.photo3 %>
+    <img src="<%= img_url(@painting.photo3) %>">
   </li>
 
   <li>
     <strong>Photo4:</strong>
-    <%= @painting.photo4 %>
+    <img src="<%= img_url(@painting.photo4) %>">
   </li>
 
   <li>
