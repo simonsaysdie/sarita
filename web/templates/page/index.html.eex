@@ -2,10 +2,22 @@
 <body>
       <div class="container">
       <div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}", name: "Phoenix!" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+  <h2><%= gettext "Sea Bienvenido a  %{name}", name: "Sara Diez art!" %></h2>
+  <p class="lead">El arte de pintar es un gran don<br />que no todos poseen.</p>
 </div>
       </div>
+
+      <div id="instafeed"></div>
+      
+      <div class="container">
+	<script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/8016cec189bb5698b753d713176a4bdb.html" id="lightwidget_8016cec189" name="lightwidget_8016cec189"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+      </div>
+      
+
+
+
+
+
     </body>
 
 

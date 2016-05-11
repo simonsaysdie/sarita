@@ -19,4 +19,7 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
-import "datepicker-init"
+import "./jquery"
+import "./materialize"
+import "./datepicker-init"
+import "./instafeed"
